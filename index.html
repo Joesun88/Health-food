@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>«O°·­¹«~-Demo</title>
+<title>ä¿å¥é£Ÿå“-Demo</title>
 
 <script type="module"
   src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js">
@@ -160,7 +160,7 @@ model-viewer {
     <button class="action" onclick="setTint(0.8,0.8,0.8)">Gray</button>
 
     <label>Brightness <span id="brightnessValue">1.00</span></label>
-    <!-- ±N¹w³]«G«×¥Ñ 0.8 ½Õ°ª¦Ü 1.0¡A§ïµ½³æ¦V¥ú·t³¡¹L²`ªº°İÃD -->
+    <!-- å°‡é è¨­äº®åº¦ç”± 0.8 èª¿é«˜è‡³ 1.0ï¼Œæ”¹å–„å–®å‘å…‰æš—éƒ¨éæ·±çš„å•é¡Œ -->
     <input type="range" id="brightnessSlider" min="0.3" max="2" step="0.05" value="1.0">
 
     <label>Metallic <span id="metallicValue">0.00</span></label>
@@ -196,7 +196,7 @@ model-viewer {
   field-of-view="auto">
 
   <button slot="ar-button" id="custom-ar-btn">
-    ?? AR ¹ê¹Ò¹wÄı
+    ?? AR å¯¦å¢ƒé è¦½
   </button>
   
   <div class="company-info">
@@ -257,7 +257,7 @@ roughnessSlider.addEventListener("input", e => {
   roughnessValue.textContent = val.toFixed(2);
 });
 
-/* ¼Ò«¬¸ü¤J«á®M¥Î¥ş¤è¦ì¥|¤è§¡¤Ã¸É¥ú§÷½èÀu¤Æ */
+/* æ¨¡å‹è¼‰å…¥å¾Œå¥—ç”¨å…¨æ–¹ä½å››æ–¹å‡å‹»è£œå…‰æè³ªå„ªåŒ– */
 mv.addEventListener("load", () => {
   mv.model.materials.forEach(mat => {
     const pbr = mat.pbrMetallicRoughness;
